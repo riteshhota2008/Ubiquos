@@ -1,0 +1,71 @@
+.teamimage{
+    border: 5px #FFFBE3 solid;
+}
+
+.teamdiv{
+    border: 5px #3ca68c solid;
+    background-color: rgba(255,255,255,1);
+    color: black;
+}
+
+#team a.icoFacebook, #team a.icoGoogle, #team a.icoTwitter, #team a.icoLinkedIn {
+    background-color: #6A425C;
+}
+
+#team a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+
+#team a.icoGoogle:hover {
+    background-color:#d34836;
+}
+
+#team a.icoTwitter:hover {
+    background-color:#4099FF;
+}
+
+#team a.icoLinkedIn:hover {
+    background-color:#007bb6;
+}
+
+#team a.icoFacebook i, #team a.icoGoogle i, #team a.icoTwitter i, #team a.icoLinkedIn {
+    color: #fff;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:18px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: scale(1.5);
+    -ms--transform: rotate(360deg);
+    transform: scale(1.5);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
